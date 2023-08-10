@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/classe_objet/classe_objet.iml" filepath="$PROJECT_DIR$/classe_objet/classe_objet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloWorld.iml" filepath="$PROJECT_DIR$/helloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_intro/java_intro.iml" filepath="$PROJECT_DIR$/java_intro/java_intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/start_wars/start_wars.iml" filepath="$PROJECT_DIR$/start_wars/start_wars.iml" />
+    </modules>
+  </component>
+</project>
