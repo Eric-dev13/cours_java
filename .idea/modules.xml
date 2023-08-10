@@ -3,9 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/classe_objet/classe_objet.iml" filepath="$PROJECT_DIR$/classe_objet/classe_objet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stars_wars/exo2/exo2.iml" filepath="$PROJECT_DIR$/stars_wars/exo2/exo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/helloWorld.iml" filepath="$PROJECT_DIR$/helloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_intro/java_intro.iml" filepath="$PROJECT_DIR$/java_intro/java_intro.iml" />
-      <module fileurl="file://$PROJECT_DIR$/start_wars/start_wars.iml" filepath="$PROJECT_DIR$/start_wars/start_wars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stars_wars/partie1/partie1.iml" filepath="$PROJECT_DIR$/stars_wars/partie1/partie1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stars_wars/partie2/partie2.iml" filepath="$PROJECT_DIR$/stars_wars/partie2/partie2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stars_wars/starts_wars.iml" filepath="$PROJECT_DIR$/stars_wars/starts_wars.iml" />
     </modules>
   </component>
 </project>
