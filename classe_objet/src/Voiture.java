@@ -4,13 +4,16 @@ public class Voiture extends VehiculeAMoteur implements Vidangeable{
     String couleur;
     String modele;
     boolean boite;
-
+    TypeBoiteVitesse boiteVitesse;
     int vitesse = 0 ;
+    int nbPlaces;
+
 
     // Constructeur par défaut
     Voiture()
     {
         System.out.println("Ici on construit une voiture sans moteur");
+        this.nbPlaces=5;
     }
 
     Voiture(Moteur moteur)
@@ -49,4 +52,21 @@ public class Voiture extends VehiculeAMoteur implements Vidangeable{
     public void vidanger() {
         System.out.println("Dévisser le bouchons etc ...");
     }
+
+//    void transporter(Passager passager, String villeDeDepart, String villeArrivee,String[] villesEtapes )
+//    {
+//        System.out.println(passager.prenom+" voyage avec moi de "+villeDeDepart+" jusqu'a "+villesEtapes[0]+" pour "+" mon trajet à "+villeArrivee);
+//    }
+
+    void transporter(Passager passager, String villeDeDepart, String villeArrivee, String... villesEtapes )
+    {
+        System.out.println(passager.prenom+" voyage avec moi de "+villeDeDepart+" jusqu'a "+villeArrivee);
+        System.out.println("Nous passerons par : ");
+        for (int i = 0; i < villesEtapes.length ; i++)
+        {
+            System.out.println(villesEtapes[i]);
+        }
+    }
+
+
 }

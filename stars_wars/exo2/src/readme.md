@@ -1,52 +1,23 @@
-eee Planete mercure =new Planete();
-mercure.nom =  "Mercure";
-mercure.matiere = "Tellurique";
-mercure.diametre = 4880l;
+  *****************************************************************************************
+                seconde partie
+  *****************************************************************************************
 
-        Planete venus =new Planete();
-        venus.nom =  "Venus";
-        venus.matiere = "Tellurique";
-        venus.diametre = 12100l;
+Il est temps d'aller rendre visite à nos planètes. Nous sommes en 2156, et nous allons comptabiliser le nombre d'être humains qui aura posé le pied sur la planète.
 
-        Planete terre =new Planete();
-        terre.nom =  "Terre";
-        terre.matiere = "Tellurique";
-        terre.diametre = 12756l;
+Le nombre total sera matérialisé par une nouvelle propriété totalVisiteurs  de type int  qui a bien évidemment comme valeur de départ 0.
 
-        Planete mars =new Planete();
-        mars.nom =  "Mars";
-        mars.matiere = "Tellurique";
-        mars.diametre = 6792l;
+Deux nouvelles méthodes nommées accueillirVaisseau  ayant exactement le même nom et ne retournant rien,  vont permettre d'accueillir de nouveaux humains, et par conséquent incrémenter la propriété ajoutée un peu plus tôt.
 
-        Planete jupiter =new Planete();
-        jupiter.nom =  "Jupiter";
-        jupiter.matiere = "Gazeuse";
-        jupiter.diametre = 142984l;
-        System.out.println("Jupiter est une planète Gazeuse avec un diamètre de 142984 kilomètres");
-        System.out.println(jupiter.nom + " est une planète" + jupiter.matiere + " avec un diamètre de " + jupiter.diametre +  " kilomètres");
-        System.out.printf("%s est une planète %s avec un diamètre de %d kilomètres \n",jupiter.nom, jupiter.matiere , jupiter.diametre);
+La première prendra en paramètre le nombre de nouveaux humains arrivés avec le vaisseau
 
+La seconde, surchargeant donc la 1ère, prendra en paramètre une chaîne de caractère valant :
 
-        Planete saturne =new Planete();
-        saturne.nom =  "Saturne";
-        saturne.matiere = "Gazeuse";
-        saturne.diametre = 120536l;
+Soit "CHASSEUR", ce qui équivaut à 3 êtres humains
 
-        Planete uranus =new Planete();
-        uranus.nom =  "Uranus";
-        uranus.matiere = "Gazeuse";
-        uranus.diametre = 51118l;
+Soit "FREGATE", ce qui équivaut à 12 êtres humains
 
-        Planete neptune =new Planete();
-        neptune.nom =  "Neptune";
-        neptune.matiere = "Gazeuse";
-        neptune.diametre = 49532l;
+Soit "CROISEUR", ce qui équivaut à 50 êtres humains
 
-        Planete pluton =new Planete();
-        pluton.nom =  "Pluton";
-        pluton.matiere = "Gazeuse";
-        pluton.diametre = 2300l;
+Dans le main , faites accoster sur Mars un convoi de 8 êtres humains, suivi d'une Frégate. Affichez ensuite le nombre d'être humains finalement comptabilisés sur Mars sous la forme :
 
-
-        neptune.revolution();
-        mars.rotation();
+Le nombre d'humains ayant déjà séjourné sur Mars est actuellement de 20.

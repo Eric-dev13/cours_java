@@ -28,7 +28,6 @@ public class Main {
         System.out.println(jupiter.nom + " est une planète" + jupiter.matiere + " avec un diamètre de " + jupiter.diametre +  " kilomètres");
         System.out.printf("%s est une planète %s avec un diamètre de %d kilomètres \n",jupiter.nom, jupiter.matiere , jupiter.diametre);
 
-
         Planete saturne =new Planete();
         saturne.nom =  "Saturne";
         saturne.matiere = "Gazeuse";
