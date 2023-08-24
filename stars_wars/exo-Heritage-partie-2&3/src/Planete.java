@@ -3,8 +3,7 @@ public class Planete {
     // String matiere;
     Long diametre;
     Atmosphere atmosphere;
-    Vaisseau VaisseauSurPlanete;
-    int totalVisiteurs = 0;
+    boolean quaiLibre;
     static int nbPlanetesDecouvertes = 0;
 
     Planete(){
@@ -27,17 +26,6 @@ public class Planete {
         System.out.printf("Je suis la planète %s et je tourne autour de mon étoile.\n", this.nom);
     }
 
-    void accueillirVaisseau(Vaisseau vaisseau) {
-        if (this.VaisseauSurPlanete==null) {
-            this.VaisseauSurPlanete=vaisseau;
-            this.totalVisiteurs += vaisseau.nbPassager;
-            System.out.println("Aucun vaisseau ne s'en va");
-        } else {
-            System.out.printf("Un vaisseau de type %s doit s'en aller\n",this.VaisseauSurPlanete.typeVaisseau);
-
-        }
-        System.out.printf("Le nombre d'humains ayant déjà séjourné sur %s est actuellement de %d\n",this.nom,this.totalVisiteurs);
-    }
 
 
 

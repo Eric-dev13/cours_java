@@ -1,9 +1,11 @@
+package container.vehicule;
+
 public class VehiculeAMoteur {
     Moteur moteur;
 
-    VehiculeAMoteur(){ }
+    protected VehiculeAMoteur(){ }
 
-    VehiculeAMoteur(Moteur mot)
+    protected VehiculeAMoteur(Moteur mot)
     {
         this.moteur=mot; // this n'est pas obligatoire tant qu'il n'y a pas de propriété possèdant le même nom dans les variables
     }

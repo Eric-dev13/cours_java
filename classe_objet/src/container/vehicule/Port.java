@@ -1,13 +1,17 @@
+package container.vehicule;
+
+import container.vehicule.marin.bateau.Amarable;
+
 public class Port {
 
     int nbPlace;
 
-    Port(int nbPlace)
+    public Port(int nbPlace)
     {
         this.nbPlace=nbPlace;
     }
 
-    void acceuillirEngin(Amarable engin)
+    public void acceuillirEngin(Amarable engin)
     {
         nbPlace-=engin.nbCordes(1.5F,100);
         if (nbPlace>=0){

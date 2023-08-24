@@ -154,7 +154,7 @@ public class Main {
         // %d : (digit) int
         // %f : float
 
-        // SCOOP  DANS LE SCOOP DE LA METHODE
+        // SCOOP DANS LE SCOOP DE LA METHODE
         {
             // espace local
             int tonAge=32;
@@ -363,7 +363,7 @@ public class Main {
         Ecoute les flux entrnt comme System.in
         Elle necessite l'import de java.util.Scanner
 
-         */
+        */
         Scanner scanner=new Scanner(System.in);
         System.out.println("entrez votre prénom");
         String prenom=scanner.nextLine();

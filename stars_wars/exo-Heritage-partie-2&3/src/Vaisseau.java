@@ -15,4 +15,5 @@ public class Vaisseau {
     {
         System.out.printf("Désactivation du bouclier d'un vaisseau de type %s \n",this.typeVaisseau);
     }
+
 }
