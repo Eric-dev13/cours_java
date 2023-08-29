@@ -82,8 +82,6 @@ public class Main {
         mars.accueillirVaisseau(chasseur);
         mars.accueillirVaisseau(vaisseau_Monde);
 
-
-
         // Partie n°3
 
         // déclarez maintenant les vaisseaux sous forme de variables de type Vaisseau afin de matérialiser le polymorphisme.
@@ -121,9 +119,8 @@ public class Main {
         chasseur3.desactiverBouclier();
         chasseur3.attaque(vaisseau_Monde2, "lasers photoniques", 3);
 
-
         // Heritage - Partie n°4
-/*        VaisseauDeGuerre chasseur6 = new VaisseauDeGuerre("chasseur",12);
+/*      VaisseauDeGuerre chasseur6 = new VaisseauDeGuerre("chasseur",12);
         VaisseauDeGuerre fregate = new VaisseauDeGuerre("fregate",24);
         VaisseauDeGuerre croiseur = new VaisseauDeGuerre("croiseur",10);
         VaisseauDeGuerre vaisseauMonde = new VaisseauDeGuerre("vaisseau-monde",10);*/

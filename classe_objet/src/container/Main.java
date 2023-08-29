@@ -4,6 +4,8 @@ import container.humain.Passager;
 import container.vehicule.Port;
 import container.vehicule.VehiculeAMoteur;
 import container.vehicule.marin.bateau.Bateau;
+import container.vehicule.terrestre.voiture.ExceptionNotNull;
+import container.vehicule.terrestre.voiture.ExecptionInvalidFormat;
 import container.vehicule.terrestre.voiture.TypeBoiteVitesse;
 import container.vehicule.terrestre.voiture.Voiture;
 
@@ -382,6 +384,71 @@ public class Main {
 
         // compareTo est utilisé dans les collections triables mais equals de meme au moment de l'ajout pour savoir si l'objet existe deja, hashCode() est une méthode qui retourne un entier unique. Chaque instance doit montrer un hashCode différent sauf si considérée equivalent.
         // Si equals indique une égalité, hascode doit renvoyer une meme valeur sur les 2 instances. hashcode est automatiquement appelé lors des hashSet et hashMap pour vérifier une egalite car le jre considere l methode plus rapide mais en revanche la jvm va tout de meme vérifier l'egalité avec la methode equals.
+
+
+
+        /* ******************************************
+              VISIBILITE ET MODIFICATEUR D'ACCES
+        ******************************************* */
+        /*
+        4 TYPES/ organisée DU PLUS VISIBLES AU MOINS VISIBLE
+        public => visible partout
+
+        A partir de cette visibilité les getters et les setteres (accesseurs /mutateurs) seront partiellement obligatoire.
+
+        package => visibilité de base (on ne peut pas préfixer d'une visibilite package car par default)
+
+        Accessible pour toutes les classes du package
+
+        protected => accessible à tous les enfants d'une classe mere
+
+        private => accessible uniquement dans la classe courante
+
+
+        -------------
+        IMPORT STATIC
+        -------------
+        Si je souhaite accèder aux propriétés ou constantes ou méthodes
+        ex: Math
+        System.out.println("Math.PI");
+
+        Avec la création d'un import static
+        Import static java.lang.Math.PI
+
+         je peux saisir:
+         System.out.println("PI");
+
+
+        -------------
+            PREFIXE
+        -------------
+        le prefixe final final (possible sur class, methode ou propriété)
+        sur classe, ne peut etre heritée
+        sur methode, ne peut etre surchargée
+        sur propriété, ne peut etre modifier et doit etre imperative valorisée de type objet.
+
+        final static => est une constante de ce fait doit etre déclarée en majuscule
+
+        Méthodes finales :
+        Lorsqu'une méthode est déclarée comme final, elle ne peut pas être redéfinie (surchargée) par les classes dérivées (classes enfants). Cela garantit que le comportement de la méthode ne peut pas être modifié dans les classes enfants.
+
+        Classes finales :
+        Lorsqu'une classe est déclarée comme final, elle ne peut pas être étendue par d'autres classes (c'est-à-dire, elle ne peut pas être une classe parente).
+
+
+         ---------------
+            EXCEPTION
+        ----------------
+         */
+        try {
+            ((Voiture) v1).immatriculer("");
+        } catch (Exception E) {
+            System.out.println(E.getMessage());
+        } finally {
+            System.out.println("Ca se produit toujours");
+        }
+
+
 
     }
 }

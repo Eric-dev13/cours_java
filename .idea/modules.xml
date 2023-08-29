@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/stars_wars/arrayList/arrayList.iml" filepath="$PROJECT_DIR$/stars_wars/arrayList/arrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/classe_objet/classe_objet.iml" filepath="$PROJECT_DIR$/classe_objet/classe_objet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stars_wars/ellipse/ellipse.iml" filepath="$PROJECT_DIR$/stars_wars/ellipse/ellipse.iml" />
       <module fileurl="file://$PROJECT_DIR$/stars_wars/exo-Heritage-partie-4/exo-Heritage-partie4.iml" filepath="$PROJECT_DIR$/stars_wars/exo-Heritage-partie-4/exo-Heritage-partie4.iml" />
       <module fileurl="file://$PROJECT_DIR$/stars_wars/exo-scanner/exo-scanner.iml" filepath="$PROJECT_DIR$/stars_wars/exo-scanner/exo-scanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/stars_wars/exo2/exo2.iml" filepath="$PROJECT_DIR$/stars_wars/exo2/exo2.iml" />
@@ -13,9 +15,12 @@
       <module fileurl="file://$PROJECT_DIR$/stars_wars/exo-Heritage-partie-2&amp;3/exo7.iml" filepath="$PROJECT_DIR$/stars_wars/exo-Heritage-partie-2&amp;3/exo7.iml" />
       <module fileurl="file://$PROJECT_DIR$/helloWorld.iml" filepath="$PROJECT_DIR$/helloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_intro/java_intro.iml" filepath="$PROJECT_DIR$/java_intro/java_intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stars_wars/map/map.iml" filepath="$PROJECT_DIR$/stars_wars/map/map.iml" />
       <module fileurl="file://$PROJECT_DIR$/stars_wars/exo1/partie1.iml" filepath="$PROJECT_DIR$/stars_wars/exo1/partie1.iml" />
       <module fileurl="file://$PROJECT_DIR$/stars_wars/partie2/partie2.iml" filepath="$PROJECT_DIR$/stars_wars/partie2/partie2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stars_wars/set/set.iml" filepath="$PROJECT_DIR$/stars_wars/set/set.iml" />
       <module fileurl="file://$PROJECT_DIR$/stars_wars/starts_wars.iml" filepath="$PROJECT_DIR$/stars_wars/starts_wars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stars_wars/treeSet/treeSet.iml" filepath="$PROJECT_DIR$/stars_wars/treeSet/treeSet.iml" />
     </modules>
   </component>
 </project>

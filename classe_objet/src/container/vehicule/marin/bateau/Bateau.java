@@ -2,6 +2,14 @@ package container.vehicule.marin.bateau;
 
 public class Bateau implements Amarable, Comparable{
 
+    public Integer getMasse() {
+        return masse;
+    }
+
+    public void setMasse(Integer masse) {
+        this.masse = masse;
+    }
+
     public Integer masse;
 
     public Bateau(){

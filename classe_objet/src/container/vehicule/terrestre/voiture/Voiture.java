@@ -6,6 +6,10 @@ import container.vehicule.VehiculeAMoteur;
 import container.vehicule.Vidangeable;
 import container.vehicule.terrestre.voiture.TypeBoiteVitesse;
 
+/**
+ * classe de voiture
+ * Ajouter vos commentaires
+ */
 public class Voiture extends VehiculeAMoteur implements Vidangeable {
 
     public int nbPortes;
@@ -15,6 +19,7 @@ public class Voiture extends VehiculeAMoteur implements Vidangeable {
     public TypeBoiteVitesse boiteVitesse;
     int vitesse = 0 ;
     int nbPlaces;
+    private String immatriculation;
 
     // Constructeur par défaut
     public Voiture()
@@ -36,6 +41,11 @@ public class Voiture extends VehiculeAMoteur implements Vidangeable {
         this.modele=modele;
     }
 
+    /**
+     * Constructeur pour objet avec seulement porte et couleur valorisé
+     * @param couleur
+     * @param nbPortes
+     */
     public Voiture(String couleur, int nbPortes)
     {
         super();
@@ -79,4 +89,16 @@ public class Voiture extends VehiculeAMoteur implements Vidangeable {
     }
 
 
+    public void immatriculer(String numero) throws ExecptionInvalidFormat, ExceptionNotNull
+    {
+        if(numero.length()!=7)
+        {
+            throw new ExecptionInvalidFormat("Problèmes immatriculation");
+        }
+
+        if(numero.isBlank()){
+            throw new ExceptionNotNull("Faut remplir quelque chose");
+        }
+
+    }
 }
